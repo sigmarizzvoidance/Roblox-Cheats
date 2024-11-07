@@ -1,18 +1,25 @@
-/* styles.css */
-
-body {
+/* Reset margin and padding */
+* {
     margin: 0;
-    height: 100vh;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Make the body take up the full height of the viewport */
+body, html {
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Arial", sans-serif; /* You can replace this with a different sans font */
-    background-color: #f4f4f4;
+    background: linear-gradient(45deg, #3a0d4f, #d5006d); /* Dark purple to pink gradient */
+    /* Gradient: angle (45 degrees), color 1 (#3a0d4f), color 2 (#d5006d) */
 }
 
-.text {
-    font-size: 60px;
-    font-weight: bold;
-    color: #333;
-    text-align: center;
+/* Style for the centered text */
+.centered-text {
+    font-size: 8rem; /* Large font size */
+    color: white; /* White text */
+    font-family: 'Montserrat', sans-serif; /* Gotham-like font (Montserrat) */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Ensure the text is centered */
 }
