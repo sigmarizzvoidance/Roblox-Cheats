@@ -30,8 +30,29 @@ h1 {
 
 .sub-text {
     font-size: 16px;
-    color: rgba(0, 0, 0, 0.5); /* This makes the text semi-transparent */
-    margin-top: 10px; /* Adds some space between the heading and the subtext */
+    color: rgba(0, 0, 0, 0.5); /* Semi-transparent text */
+    margin-top: 10px; /* Adds space between heading and subtext */
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    border: 2px solid black; /* Thin dark outline */
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Old Sans', sans-serif;
+    margin-top: 20px; /* Adds some space between the subtext and the button */
+    text-transform: uppercase; /* Make the text uppercase for a cleaner look */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: black; /* Dark background on hover */
+    color: white; /* White text when hovered */
 }
 
 /* Make sure the page takes up the full viewport */
